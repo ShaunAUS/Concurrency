@@ -3,4 +3,5 @@
 - synchronized
 - pessmisticLock
 - optimisticLock
+- RedisLettuce
 - Redisson
