@@ -14,7 +14,7 @@ public class Stock {
     private Long productId;
     private Long quantity;
     //for optimistic lock
-   @Version
+    @Version
     private Long version;
 
     public Stock() {

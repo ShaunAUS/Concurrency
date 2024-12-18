@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 //비관적락
+//충돌이 빈번하게 일어나면 optimisticLock 보다 성능이 좋음
 @Service
 public class PessimisticLockStockService {
     private final StockRepository stockRepository;
