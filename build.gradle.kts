@@ -22,6 +22,9 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-data-redis")
 	implementation("org.redisson:redisson-spring-boot-starter:3.23.2")
+	implementation("org.springframework.boot:spring-boot-starter-aop")
+	compileOnly ("org.projectlombok:lombok:1.18.30")
+	annotationProcessor ("org.projectlombok:lombok:1.18.30")
 
 	runtimeOnly("com.mysql:mysql-connector-j")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
